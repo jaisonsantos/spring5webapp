@@ -55,10 +55,6 @@ public class Author {
         this.lastName = lastName;
     }
 
-    public Set<Book> getBooks() {
-        return books;
-    }
-
     public void setBooks(Set<Book> books) {
         this.books = books;
     }
@@ -74,5 +70,9 @@ public class Author {
     @Override
     public int hashCode() {
         return Objects.hash(id);
+    }
+
+    public void add(Book book) {
+        this.books.add(book);
     }
 }

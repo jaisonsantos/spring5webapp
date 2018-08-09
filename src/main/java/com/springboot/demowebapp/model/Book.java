@@ -67,10 +67,6 @@ public class Book {
         this.publisher = publisher;
     }
 
-    public Set<Author> getAuthors() {
-        return authors;
-    }
-
     public void setAuthors(Set<Author> authors) {
         this.authors = authors;
     }
@@ -97,5 +93,9 @@ public class Book {
                 ", publisher='" + publisher + '\'' +
                 ", authors=" + authors +
                 '}';
+    }
+
+    public void add(Author author) {
+        this.authors.add(author);
     }
 }
