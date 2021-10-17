@@ -15,7 +15,7 @@ to use the Spring Framework.
 | Gradle 4.8 or higher | [Download](https://gradle.org/install/) | **Note:** Use Version 5 or higher if using Java 11 |
 | Git 2.15 or higher | [Download](https://git-scm.com/downloads) | | 
 | Git GUI Clients | [Downloads](https://git-scm.com/downloads/guis) | Not required. But can be helpful if new to Git. SourceTree is a good option for Mac and Windows users. |
-| Spring Boot 2.1 or higher | [What's new](https://content.pivotal.io/springone-platform-2017/whats-new-in-spring-boot-2-0-phillip-webb-madhura-bhave) | | 
+| Spring Boot 2.5.5 or higher | [What's new](https://content.pivotal.io/springone-platform-2017/whats-new-in-spring-boot-2-0-phillip-webb-madhura-bhave) | | 
 
 ### Reference Documentation
 For further reference, please consider the following sections:
